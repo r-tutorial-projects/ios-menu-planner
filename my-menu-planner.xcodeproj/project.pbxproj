@@ -13,6 +13,7 @@
 		CF5E59082402C766002A76A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5E59072402C766002A76A7 /* Assets.xcassets */; };
 		CF5E590B2402C766002A76A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5E590A2402C766002A76A7 /* Preview Assets.xcassets */; };
 		CF5E590E2402C766002A76A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5E590C2402C766002A76A7 /* LaunchScreen.storyboard */; };
+		CF5E59172402C7E7002A76A7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E59162402C7E7002A76A7 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF5E590A2402C766002A76A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF5E590D2402C766002A76A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF5E590F2402C766002A76A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5E59162402C7E7002A76A7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CF5E59002402C765002A76A7 /* my-menu-planner */ = {
 			isa = PBXGroup;
 			children = (
+				CF5E59152402C7D4002A76A7 /* Views */,
 				CF5E59012402C765002A76A7 /* AppDelegate.swift */,
 				CF5E59032402C765002A76A7 /* SceneDelegate.swift */,
 				CF5E59052402C765002A76A7 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				CF5E590A2402C766002A76A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF5E59152402C7D4002A76A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E59162402C7E7002A76A7 /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			files = (
 				CF5E59022402C765002A76A7 /* AppDelegate.swift in Sources */,
 				CF5E59042402C765002A76A7 /* SceneDelegate.swift in Sources */,
+				CF5E59172402C7E7002A76A7 /* LoginView.swift in Sources */,
 				CF5E59062402C765002A76A7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
